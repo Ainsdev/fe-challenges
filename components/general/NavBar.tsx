@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { FC } from 'react';
 import styles from '../styles/NavBar.module.scss'
 interface Props {
@@ -8,11 +9,11 @@ interface Props {
 const NavBar: React.FC<Props> = (props) => {
     return (
         <nav className={styles.nav}>
-            <a href='/'>
+            <Link href='/'>
                 <h1 className={styles.nav}>Home</h1>
-            </a>
+            </Link>
             <a href={props.link}>
-                <h2>See the {props.title} Challenge</h2>
+                <h2>PDF Proposal {props.title} Challenge</h2>
             </a>
         </nav>
     );
