@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a >FE Challenges</a>
+          Bienvenido a <a >FE Challenges</a>
         </h1>
 
         <p className={styles.description}>
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         <div className={styles.grid}>
           <Card title='Weather' description='Weather Api | Jest | TS | Radix' link='weather' />
           <Card title='Amazing Ecommerce' description='Products API | Categorie | Pagination | TS | Jest' link='/ecommerce' />
-          <Card title='Examples' description='Discover and deploy boilerplate example Next.js projects.' link='https://github.com/vercel/next.js/tree/canary/examples' />
+          <Card title='Crypto Chile' description='Crypto API Chile | searching | TS | Jest' link='/crypto' />
           <Card title='Examples' description='Discover and deploy boilerplate example Next.js projects.' link='https://github.com/vercel/next.js/tree/canary/examples' />
 
         </div>
